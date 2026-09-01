@@ -1,19 +1,19 @@
 //Variables
 
-fullName = "Shawon Hossain";
+var fullName = "Shawon Hossain";
 
 console.log(fullName);
-age = 26;
+var age = 26;
 
 console.log(age);
 
-address = "Dhaka, Bangladesh";
+var address = "Dhaka, Bangladesh";
 
 console.log(address);
 
-x = null;
+var x = null;
 console.log(x);
-y = undefined;
+var y = undefined;
 console.log(y);
 
 //Data Types
@@ -33,3 +33,10 @@ console.log(hobbies);
 console.log(name);
 console.log(age);
 console.log(isStudent);
+
+
+//var,let,const
+var x = 5; //var can be redeclared and updated
+let y = 10; //let can be updated but not redeclared
+const z = 15; //const cannot be updated or redeclared
+
