@@ -1,6 +1,5 @@
 //Variables
 
-
 fullName = "Shawon Hossain";
 
 console.log(fullName);
@@ -19,3 +18,18 @@ console.log(y);
 
 //Data Types
 
+var name = "Shawon Hossain"; //String
+var age = 26; //Number
+var isStudent = true; //Boolean
+var hobbies = ["Reading", "Writing", "Coding"]; //Array
+var address = { //Object
+    street: "123 Main St",
+    city: "Dhaka",
+    country: "Bangladesh",
+    postcode: "12345"
+};
+console.log(address);
+console.log(hobbies);
+console.log(name);
+console.log(age);
+console.log(isStudent);
