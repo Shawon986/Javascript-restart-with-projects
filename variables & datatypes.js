@@ -35,6 +35,30 @@ console.log(age);
 console.log(isStudent);
 
 
+//Primitives and Non-Primitives
+
+//Primitive data types
+var name = "Shawon"; //String
+var age = 26; //Number
+var isStudent = true; //Boolean
+var x = null; //Null
+var y = undefined; //Undefined
+var z = Symbol("id"); //Symbol
+var w = 10n; //BigInt
+
+//Non-Primitive data types
+var hobbies = ["Reading", "Writing", "Coding"]; //Array
+var address = { //Object
+    street: "123 Main St",
+    city: "Dhaka",
+    country: "Bangladesh",
+    postcode: "12345"
+};
+var greet = function() { //Function
+    console.log("Hello!");
+}
+greet();
+
 //var,let,const
 var x = 5; //var can be redeclared and updated
 let y = 10; //let can be updated but not redeclared
