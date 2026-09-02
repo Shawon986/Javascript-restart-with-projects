@@ -64,13 +64,13 @@ var x = 5; //var can be redeclared and updated
 let y = 10; //let can be updated but not redeclared
 const z = 15; //const cannot be updated or redeclared
 
-let a = 5;
-console.log(a);
-let a = 10; // This will throw an error because 'a' has already been declared with let
+//let a = 5;
+//console.log(a);
+//let a = 10; // This will throw an error because 'a' has already been declared with let
 
-const b = 20;
-console.log(b);
-const b = 25; // This will throw an error because 'b' is a constant and cannot be reassigned
+//const b = 20;
+//console.log(b);
+//const b = 25; // This will throw an error because 'b' is a constant and cannot be reassigned
 
 var c = 30;
 console.log(c);
