@@ -73,4 +73,23 @@ console.log(typeof name);
 console.log(typeof ages);
 
 
+//Assignment Operators
 
+let num1 = 10;
+num1 += 5;
+console.log(num1); // 15
+
+num1 -= 3;
+console.log(num1); // 12
+
+num1 *= 2;
+console.log(num1); // 24
+
+num1 /= 3;
+console.log(num1); // 8
+
+num1 %= 5;
+console.log(num1); // 3
+
+num1 **= 2;
+console.log(num1); // 9
