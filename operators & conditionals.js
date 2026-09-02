@@ -93,3 +93,26 @@ console.log(num1); // 3
 
 num1 **= 2;
 console.log(num1); // 9
+
+
+//if,else,else if Statement
+
+const age1 = 20;
+if (age1 >18){
+    console.log("You are an adult.");
+}
+else{
+    console.log("You are a minor.");
+}
+
+const mode = "light";
+if (mode === "dark"){
+    console.log("Dark mode is enabled.");
+}
+else if (mode === "light"){
+    console.log("Light mode is enabled.");
+}
+else{
+    console.log("Invalid mode.");
+}
+
