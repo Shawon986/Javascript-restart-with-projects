@@ -102,3 +102,12 @@ console.log("Size of the string is: " + size);
 
 //for-in loop
 
+let obj = {
+    name: "Shawon",
+    age: 26,
+    city: "Dhaka"
+};
+
+for(let key in obj){
+    console.log(key + ": " + obj[key]);
+}
