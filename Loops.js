@@ -46,3 +46,29 @@ while(m <= k){
     m++;
 }
 console.log("The sum of first " + k + " numbers is " + sums);
+
+
+//do-while loop
+//print numbers from 0 to 4
+let a = 0;
+do{
+    console.log("a = ", a);
+    a++;
+}while(a < 5);
+
+//print odd numbers from 1 to 10
+let b = 1;
+do{
+    console.log("b = ", b);
+    b += 2;
+}while(b < 10);
+
+//print sum of p numbers
+let p = 10;
+let sum1 = 0;
+let q = 1;
+do{
+    sum1 += q;
+    q++;
+}while(q <= p);
+console.log("The sum of first " + p + " numbers is " + sum1);
