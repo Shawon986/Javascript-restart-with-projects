@@ -116,3 +116,27 @@ else{
     console.log("Invalid mode.");
 }
 
+
+let score = 85;
+let grade;
+if(score >= 90){
+    grade = "A";
+}
+else if(score >= 80){
+    grade = "B";
+}
+else{
+    grade = "C";
+}
+console.log(grade);
+
+
+//odd or even
+
+const randomNumber = 8;
+if(randomNumber % 2 === 0){
+    console.log(randomNumber + " is an even number.");
+}
+else{
+    console.log(randomNumber + " is an odd number.");
+}
