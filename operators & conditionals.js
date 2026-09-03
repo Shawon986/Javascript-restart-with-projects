@@ -65,6 +65,11 @@ const age = 18;
 const canVote = (age >= 18) ? "Yes" : "No";
 console.log(canVote);
 
+const grades = 85;
+const result = (grades >= 80) ? "A+" : "Not A+";
+console.log(result);
+
+
 //Typeof Operator
 
 const name = "Shawon";
