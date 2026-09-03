@@ -72,3 +72,29 @@ do{
     q++;
 }while(q <= p);
 console.log("The sum of first " + p + " numbers is " + sum1);
+
+
+//for-of loop
+//print elements of an array
+let arr = [1, 2, 3, 4, 5];
+for(let element of arr){
+    console.log("Element = ", element);
+}
+
+
+//print characters of a string
+let str = "Hello";
+for(let char of str){
+    console.log("Character = ", char);
+}
+
+//print size of a string
+let str1 = "Hello World";
+let size = 0;
+
+for(let char of str1){
+    console.log("Character = ", char);
+    size++;
+    
+}
+console.log("Size of the string is: " + size);
