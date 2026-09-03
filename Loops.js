@@ -98,3 +98,7 @@ for(let char of str1){
     
 }
 console.log("Size of the string is: " + size);
+
+
+//for-in loop
+
