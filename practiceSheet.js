@@ -100,3 +100,12 @@ for(let val of words){
     size++;
 }
 console.log("The size of the string is: " + size);
+
+
+let array = [1,2,3,4,5,6,7];
+let totalNumbers = 0;
+for(val of array){
+    console.log("Numbers : ", val);
+    totalNumbers++;
+}
+console.log("Total numbers in array : ", totalNumbers);
