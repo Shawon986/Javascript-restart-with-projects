@@ -109,3 +109,17 @@ for(val of array){
     totalNumbers++;
 }
 console.log("Total numbers in array : ", totalNumbers);
+
+
+let fullName = "Shawon Hossain";
+for(let i = 1; i<5; i++){
+    console.log("Name :" , fullName);
+}
+
+let i = 1;
+while(i<5){
+    console.log("Name : ", fullName);
+    i++;
+}
+
+
