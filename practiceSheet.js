@@ -123,3 +123,21 @@ while(i<5){
 }
 
 
+
+let summation = 0;
+
+for(let i = 0; i<=100; i += 2){
+    summation += i;
+}
+console.log("Sum of all even no between 1 - 100 :" , summation);
+
+
+
+let n2 = 50;
+let sum4 = 0;
+
+for (let i = 1; i<=n2; i+=2){
+    sum4 += i;
+    i++;
+}
+console.log("Sum of all odd numbers between 1 - 50 :" , sum4);
