@@ -141,3 +141,15 @@ for (let i = 1; i<=n2; i+=2){
     i++;
 }
 console.log("Sum of all odd numbers between 1 - 50 :" , sum4);
+
+
+//do while loop
+
+let p = 10;
+let sum5 = 0;
+let q = 1;
+do{
+    sum5 += q;
+    q++;
+}while(q <= p);
+console.log("The sum of first " + p + " numbers is " + sum5);
