@@ -153,3 +153,13 @@ do{
     q++;
 }while(q <= p);
 console.log("The sum of first " + p + " numbers is " + sum5);
+
+
+let first = 5;
+let second = 8;
+
+const addition = function(a, b) {
+    console.log("Sum of a and b is : ", a + b);
+};
+
+addition(first, second);
