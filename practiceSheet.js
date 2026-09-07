@@ -154,6 +154,7 @@ do{
 }while(q <= p);
 console.log("The sum of first " + p + " numbers is " + sum5);
 
+//function expression
 
 let first = 5;
 let second = 8;
@@ -163,3 +164,17 @@ const addition = function(a, b) {
 };
 
 addition(first, second);
+
+
+
+const multiply = function(a, b) {
+    console.log("Multiplication of a and b is : ", a * b);
+};
+
+multiply(first, second);
+
+
+const divide = function(a,b){
+    console.log("Dvivision of a and b is : ", a/b);
+}
+divide(first, second);
