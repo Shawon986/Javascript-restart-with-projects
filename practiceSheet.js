@@ -178,3 +178,12 @@ const divide = function(a,b){
     console.log("Dvivision of a and b is : ", a/b);
 }
 divide(first, second);
+
+const firstName = "Shawon";
+const lastName = "Hossain";
+
+const myName = function(){
+    console.log("My name is : ", firstName + lastName);
+}
+
+myName(firstName , lastName);
