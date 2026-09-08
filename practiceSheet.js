@@ -187,3 +187,13 @@ const myName = function(){
 }
 
 myName(firstName , lastName);
+
+//guessing game
+
+// let gameNumber = 35;
+// let userInput = prompt("Guess a number between 1-40");
+
+// while(userInput != gameNumber){
+//     userInput = prompt("You gussed wrong, guess again");
+// }
+// console.log("Guess is right !!!");
