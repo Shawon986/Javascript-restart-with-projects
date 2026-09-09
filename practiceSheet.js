@@ -197,3 +197,15 @@ myName(firstName , lastName);
 //     userInput = prompt("You gussed wrong, guess again");
 // }
 // console.log("Guess is right !!!");
+
+
+
+//practice string
+
+const str = "Hello, World!";
+console.log(str.length); // 13
+console.log(str.charAt(7)); // "W"
+console.log(str.indexOf("World")); // 7
+console.log(str.slice(0, 6)); // "Hello,"
+console.log(str.toUpperCase()); // "HELLO, WORLD!"
+console.log(str.toLowerCase()); // "hello, world!"
