@@ -218,3 +218,29 @@ do{
     r++;
 }while(r <= 10);
 console.log("The sum of first 10 numbers is " + sum6);
+
+
+//string methods practice
+
+let str1 = "Hello, World!";
+
+console.log(str1.length); // 13
+console.log(str1.charAt(0)); // "H"
+console.log(str1.indexOf("World")); // 7
+console.log(str1.slice(0, 5)); // "Hello"
+console.log(str1.toUpperCase()); // "HELLO, WORLD!"
+console.log(str1.toLowerCase()); // "hello, world!"
+
+str1 = str1.replace("World", "Javascript");
+console.log(str1); // "Hello, Javascript!"
+str1 = str1.concat(" How are you?");
+console.log(str1); // "Hello, Javascript! How are you?"
+str1 = str1.trim();
+console.log(str1); // "Hello, Javascript! How are you?"
+str1 = str1.split(" ");
+console.log(str1); // ["Hello,", "Javascript!", "How", "are", "you?"]
+str1 = str1.join(" ");
+console.log(str1); // "Hello, Javascript! How are you?"
+str1 = str1.startsWith("Hello");
+console.log(str1); // true
+
