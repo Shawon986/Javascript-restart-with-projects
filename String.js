@@ -30,3 +30,26 @@ let str4 = "Hello, \nWorld!"; // Hello, World!
 console.log(str4);
 let str5 = "Hello, \tWorld!"; // Hello, 	World!
 console.log(str5); 
+
+
+//string methods
+let str6 = "Hello, World!";
+console.log(str6.length); // 13
+console.log(str6.charAt(0)); // "H"
+console.log(str6.indexOf("World")); // 7
+console.log(str6.slice(0, 5)); // "Hello"
+console.log(str6.toUpperCase()); // "HELLO, WORLD!"
+console.log(str6.toLowerCase()); // "hello, world!"
+str6 = str6.replace("World", "JavaScript");
+console.log(str6); // "Hello, JavaScript!"
+str6 = str6.concat(" How are you?");
+console.log(str6); // "Hello, JavaScript! How are you?"
+str6 = str6.trim();
+console.log(str6); // "Hello, JavaScript! How are you?"
+str6 = str6.split(" ");
+console.log(str6); // ["Hello,", "JavaScript!", "How", "are", "you?"]
+str6 = str6.join(" ");
+console.log(str6); // "Hello, JavaScript! How are you?"
+str6 = str6.startsWith("Hello");
+console.log(str6); // true
+
