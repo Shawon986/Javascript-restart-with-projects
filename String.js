@@ -18,3 +18,15 @@ let object = {
     age: 25
 };
 console.log(`My name is ${object.name} and I am ${object.age} years old.`);
+
+//escape sequences
+let str1 = "Hello, \"World\"!"; // Hello, "World"!
+console.log(str1); 
+let str2 = 'Hello, \'World\'!'; // Hello, 'World'!
+console.log(str2);
+let str3 = "Hello, \\World\\!"; // Hello, \World\!
+console.log(str3);
+let str4 = "Hello, \nWorld!"; // Hello, World!
+console.log(str4);
+let str5 = "Hello, \tWorld!"; // Hello, 	World!
+console.log(str5); 
