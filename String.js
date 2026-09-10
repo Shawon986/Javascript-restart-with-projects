@@ -53,3 +53,8 @@ console.log(str6); // "Hello, JavaScript! How are you?"
 str6 = str6.startsWith("Hello");
 console.log(str6); // true
 
+//userName generate
+let fullName = "ShawonHossain";
+
+fullName = "@" + fullName + fullName.length;
+console.log(fullName); // @ShawonHossain13
