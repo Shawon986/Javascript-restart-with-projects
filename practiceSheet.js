@@ -209,3 +209,12 @@ console.log(str.indexOf("World")); // 7
 console.log(str.slice(0, 6)); // "Hello,"
 console.log(str.toUpperCase()); // "HELLO, WORLD!"
 console.log(str.toLowerCase()); // "hello, world!"
+
+//do...while loop
+let r = 1;
+let sum6 = 0;
+do{
+    sum6 += r;
+    r++;
+}while(r <= 10);
+console.log("The sum of first 10 numbers is " + sum6);
